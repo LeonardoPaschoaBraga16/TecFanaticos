@@ -1,0 +1,704 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+}
+#Nav-Bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.Navbar{
+    background-image: linear-gradient( to right, #2C3E50, #4CA1AF);
+    padding: 0 !important;
+}
+.Navbar-brand img{
+    height:80px;
+    padding-left: 20px;
+    margin-right: 10px;
+}
+.Navbar-nav li{
+    padding: 0 10px;
+    margin-left:8px;
+
+}
+.Navbar-nav li a{
+    color: #FFF !important;
+    font-weight: 600;
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    margin-right: 20px;
+}
+.Fa-bars{
+    color: #FFF;
+    font-size: 30px !important;
+}
+.Navbar-toggler{
+    outline: none !important;
+}
+.Navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*---------Inicio do Conteudo--------------*/
+.container h1{
+    text-align: center;
+    font-size: 40pt;
+    font-weight: 600px;
+    justify-content: center;
+    margin: 40px 0px 55px 0px;
+}
+.container p{
+    margin-top: 20px;
+    text-align:justify;
+}
+
+.container .img07 {
+    margin: 20px 10px 5px 10px;
+    height: 270px ;
+    float: left;
+}
+
+#p1 {
+    margin-top: 50px;
+    text-align:justify;
+}
+
+#p2 {
+    margin-top: 40px;
+    text-align:justify; 
+    margin-bottom: 2px;  
+}
+
+.container .p3 {
+    margin-top: 0px;
+    text-align:justify
+}
+
+.container .p4 {
+    margin: 0px;
+    text-align: justify;
+}
+
+#empresas {
+    margin: 40px 200px 40px 20px;
+    color:rgb( 0, 68, 85);
+    padding-left: 100px;
+    float: right;
+}
+
+.container .img08 {
+    margin: 10px 25px;
+    height: 400px;
+    float: right;
+}
+
+.container .img09 {
+    margin: 60px 25px 20px 25px;
+    height: 300px;
+    float: left;
+}
+
+.container #img10 {
+    margin: -60px 25px 10px 25px;
+    height: 230px;
+    float: right;
+}
+
+.container .img01{
+    margin: 20px 25px;
+    height: 200px;
+    float: left;
+}
+.container h2{
+    margin: 40px 10px;
+    color:rgb( 0, 68, 85);
+    margin: 30px
+}
+
+.container #H2{
+    float: right;
+    color:rgb( 0, 68, 85);
+    margin: 30px;
+    margin-right: 200px;
+    padding-left: 490px;
+}
+#curiosidades {
+    float: right;
+    padding-left: 170px;
+    margin: 30px 250px 30px 10px;
+    color: rgb( 0, 68, 85);
+    
+}
+
+#historia {
+    margin: 40px 10px;
+    color:rgb( 0, 68, 85);
+    margin: 30px;
+    text-align: center;
+}
+.container .img02{
+    margin: 10px 25px;
+    height: 200px;
+    float: right;
+}
+.container .img03 {
+    margin: 10px 25px;
+    height: 250px;
+    float: right;
+    margin-top: -50px;
+}
+
+.container .img04 {
+    height: 250px;
+    margin: 10px 25px;
+    float: left;
+    margin-top: -60px;
+}
+.container .img05 {
+   float: left;
+   height: 200px;
+   margin: 10px 25px;
+   margin-top: 40px;
+   
+}
+.container .img06 {
+    margin: 10px 25px;
+    height: 290px;
+    float: right;
+    margin-top: -55px;
+    
+}
+
+#Pfinal {
+    margin-top: 65px;
+    justify-content: right;
+}
+h2{
+    font-size: auto;
+}
+.container .anime .videoRVeRA{
+    height:315px;
+    float:center;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+@media(max-width:1196px){
+    .container #empresas{
+       float: right;
+       margin-right: 100px;
+       padding-left: 10px;
+    }
+    .container #H2{
+         float: right;
+         padding-left: 510px;
+         margin-right: auto;
+    }
+    .container .img04{
+        padding-top: 0px;
+        margin-top: -50px;
+    }
+    .container #img10{
+        margin-top: 8px;
+    }
+    .container .img05{
+           margin-top: -70px;
+           padding-top: 10px;
+    }
+    .container #curiosidades{
+        padding-left: 500px;
+    }
+    .container .img06{
+        height: 250px;
+    }
+}
+@media(max-width:991px){
+
+    .container .img02{
+        height: 180px;
+    }
+    .container .img03{
+        margin-top: 9px;
+        height: 230px;
+    }    
+    .container .img04{
+        height: 220px;
+        margin-top: 0px;
+       
+    }
+    .container .img05{
+        height: 180px;
+    }
+    .container .img07{
+        height: 200px;
+    }
+    .container .img08{
+        height: 300px;
+    }
+    .container .img09{
+        height: 250px;
+        margin-top: 0px;
+    } 
+    .container #curiosidades{
+        float: right;
+        margin-right: 40px;
+    }
+   .container #empresas{
+        padding-left: 120px;
+    }
+    .container #H2{
+    
+        float: right;
+        padding-left: 265px;
+    }
+    .container #img10{
+        height: 200px;
+    }
+}
+@media(max-width:767px){
+    .container h1{
+        font-size: 35px;
+    }
+
+    .container #img10 {
+        float: none;
+        height: 230px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .container #H2{
+        padding-left: 0px;
+        text-align: center;
+        float: none;
+        margin-right: 0px;
+        margin-left: auto;
+    }
+    .container #curiosidades{
+        margin-right: auto;
+        margin-left: auto;
+        
+        float: none;
+        text-align: center;
+        padding-left: 10px;
+    }
+    #empresas {
+        margin: 40px 65px 40px 0px;
+        color:rgb( 0, 68, 85);
+        text-align: center;
+    }
+
+    .container .img01{
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        float:none;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .img02{
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        float:none;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .img03{
+        height: 220px;
+        margin-right: auto;
+        margin-left: auto;
+        display:block;
+
+        float:none;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .img04{
+        height: 220px;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        float:none;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .img05{
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        float:none;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .img06{
+        height: 220px;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        float:none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container .img07{
+        height: 220px;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        float:none;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+
+        float: none;
+    }
+    .container h2{
+        text-align:center;
+        justify-content: center;
+    }
+    .container .anime .videoRVeRA{
+        height:315px;
+        width:480px;
+        float:center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+}
+@media(max-width:580px){
+    .container .img08{
+        float:none;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        float:none;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .container .img09{
+        float:none;
+        margin-left: auto;
+        margin-right: auto;
+        display:block;
+        float:none;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
+@media(max-width:560px){
+    .container .anime .videoRVeRA{
+        height:315px;
+        width:420px;
+        float:center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+}
+@media(max-width:480px){
+    .container .anime .videoRVeRA{
+        height:300px;
+        width:380px;
+        float:center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+}
+@media(max-width:460px){
+    .container h1{
+        font-size: 32px;
+    }
+    .container h2{
+        font-size: 25px
+    }
+    .container .img01{
+        height: 200px;
+
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container .img02{
+        height: 180px;
+    }
+    .container .img03{
+        height: 205px;
+        margin-right: auto;
+        margin-left: auto;
+
+        text-align: center;
+        justify-content: center;
+    }
+    .container .img04{
+        height: 205px;
+        margin-right: auto;
+        margin-left: auto;
+
+        text-align: center;
+        justify-content: center;
+    }
+    .container .img05{
+        height: 165px;
+    }
+    .container .img06{
+        height: 205px;
+
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .container .img07{
+        height: 205px;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+    .container .img08{
+        height: 250px;
+    }
+
+    .container #empresas{
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .container .img09{
+        height: 200px;
+    }
+
+    .container #img10 {
+        height: 200px;
+    }
+
+}
+@media(max-width:440px){
+    .container .anime .videoRVeRA{
+        height:290px;
+        width:350px;
+        float:center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:400px){
+    #Nav-Bar a{
+        font-size:12pt;
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    #Nav-Bar img{
+        height: 60px;
+    }
+    .container .img01{
+        height: 150px;
+    }
+    .container .img02{
+        height: 130px;
+    }
+    .container .img03{
+        height: 170px;
+    }
+    .container .img04{
+        height: 170px;
+    }
+    .container .img05{
+        height: 135px;
+    }
+    .container .img06{
+        height: 170px;
+    }
+    .container .img07{
+        margin-left: auto;
+        margin-right: auto;
+        height: 170px;
+    }
+    .container .img08{
+        height: 190px;
+    }
+    .container .img09{
+        height: 190px;
+        margin-top: 0px;
+    }
+    .container #img10{
+        height: 170px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .container .anime .videoRVeRA{
+        height:220px;
+        width:320px;
+        float:center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+
+}
+@media(max-width:370px){
+    .container .anime .videoRVeRA{
+        height:200px;
+        width:290px;
+        float:center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+
+}
+@media(max-width:336px){
+
+ 
+    .container h1{
+        font-size: 28px;
+    }
+    .container h2{
+        font-size: 20px
+    }
+    .container .img03{
+        height: 170px;
+    }
+    .container .img05{
+        height: 115px;
+    }
+    .container .img07{
+        height: 150px;
+        margin-left: 5%;
+    }
+    .container .img09{
+        height: 155px;
+    }
+    .container #img10{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .container .anime .videoRVeRA{
+        height:180px;
+        width:260px;
+        float:center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:308px){
+    #Nav-Bar img{
+        height: 50px;
+        padding-left: 5px;
+    }
+    #nav-bar .navbar-brand img{
+        height: 60px;
+    }
+
+    .container .img01{
+        height: 135px;
+        margin: 0px;
+    }
+    .container .img02{
+        height: 118px;
+        margin-left: auto;
+    }
+    .container .img03{
+        height: 145px;
+    }
+    .container .img04{
+        height: 145px;
+    }
+    .container .img05{
+        height: 115px;
+        margin: 0px;
+    }
+    .container .img06{
+        height: 145px;
+    }
+    .container .img07{
+        margin-left: auto;
+        margin-top: 0px;
+    }
+    .container .img08{
+        height: 150px;
+    }
+    .container .img09{
+        height: 150px;
+        margin-bottom: 5px;
+    }
+    .container #img10{
+        height: 140px;
+    }
+    .container .anime .videoRVeRA{
+        height:150px;
+        width:230px;
+        float:center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+    }
+}
+@media(max-width:280px){
+    .container .img07{
+        height: 140px;
+    }
+    .container .img09{
+        height: 130px;
+        margin-left: auto;
+    }
+}
+footer{
+    margin-top: 50px;   
+    background-color: #1a1a1aff;
+    color: #FFF;
+    padding-bottom: 1px;
+    padding: 10px;
+}
+footer img{
+    height: 60px;
+    margin: 8px 0 0 8px;
+}
+/*animações scroll*/
+
+.anime{
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: .3s;
+}
+.anime-start{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
